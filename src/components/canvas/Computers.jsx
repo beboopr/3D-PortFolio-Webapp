@@ -72,9 +72,10 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       // To properly render model.
       gl={{ preserveDrawingBuffer: true }}
-    >//While canvas is loading, show CanvasLoader.
+    >
+      {/* //While canvas is loading, show CanvasLoader. */}
       <Suspense fallback={<CanvasLoader />}>
-        // To help us move around the canvas.
+        {/* // To help us move around the canvas. */}
         <OrbitControls
           enableZoom={false}
           // To only move around the x and y axis = Left & Right only.
