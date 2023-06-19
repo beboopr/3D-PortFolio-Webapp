@@ -112,6 +112,9 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <p className="font-normal text-[14px] text-white text-center">
+            Copyright © 2022 - 2023 Edgar Davila. All rights reserved.
+        </p>
       </motion.div>
 
       <motion.div
