@@ -65,17 +65,17 @@
   -webkit-text-fill-color: transparent;
 }
 
-.green-text-gradient {
-  background: #11998e; /* fallback for old browsers */
+.yellow-text-gradient {
+  background: #FFFF00; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #11998e,
-    #38ef7d
+    #998511,
+    #e6eb49
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #11998e,
-    #38ef7d
+    #F9ED2B,
+    #F9912B
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

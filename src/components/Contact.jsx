@@ -1,3 +1,6 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-refresh/only-export-components */
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -75,6 +78,8 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
+              required
+              minLength={2}
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
@@ -86,6 +91,8 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
+              required
+              minLength={3}
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 
               placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -98,6 +105,8 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
+              required
+              minLength={3}
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 
               placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -113,7 +122,7 @@ const Contact = () => {
           </button>
         </form>
         <p className="font-normal text-[14px] text-white text-center">
-            Copyright © 2022 - 2023 Edgar Davila. All rights reserved.
+            Copyright © 2023 Edgar Davila. All rights reserved.
         </p>
       </motion.div>
 
