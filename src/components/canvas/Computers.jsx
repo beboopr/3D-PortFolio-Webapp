@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 //Warning: Dont leave a space between a comment and the following line. it will crash the app.
 // To find 3D models: https://sketchfab.com/explore/downloadable
 
