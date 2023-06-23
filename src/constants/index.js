@@ -151,7 +151,7 @@ const experiences = [
     points: [
       "Exploring the intricacies of IoT and developing a project to construct a Full Stack Software that can collect data and manage devices within a local network.",
       "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Ensuring IoT devices are secure and protected using WebSockets, MQTT, and other related technologies.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -163,7 +163,7 @@ const experiences = [
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Partnering with clients to identify business needs and requirements to deliver solutions that meet their goals.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other clients.",
     ],
